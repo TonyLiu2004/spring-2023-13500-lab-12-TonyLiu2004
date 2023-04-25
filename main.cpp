@@ -14,7 +14,7 @@ int main(){
     std::vector<int> a2 = {-1,-2,3,4,-5,-6,7};
     std::vector<int> b2 = goodVibes(a2);
     for(int i =0;i < b2.size();i++){
-        cout << b2[i] << "\n";
+        std::cout << b2[i] << "\n";
     }
     std::cout << "-------------------------" << "\n";
 
@@ -32,7 +32,7 @@ int main(){
     std::vector<int> b4 = {3,2,1};
     std::vector<int> sum = sumPairWise(a4,b4);
     for(int i = 0;i < sum.size();i++){
-        cout << sum[i] << "\n";
+        std::cout << sum[i] << "\n";
     }
 
     return 0;
