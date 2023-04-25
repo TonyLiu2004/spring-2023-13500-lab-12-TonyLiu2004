@@ -25,6 +25,7 @@ int main(){
     for(int i = 0;i < a3.size();i++){
         std::cout << a3[i] << " ";
     }    
+    std::cout << "\n";
     std::cout << "--------------------------" << "\n";
 
     std::cout << "TASK D: " << "\n";
